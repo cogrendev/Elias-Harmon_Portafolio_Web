@@ -1,69 +1,65 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio - Elias Harmon</title>
-    <link rel="stylesheet" href="\css\style.css"> <!-- Aquí enlazo mi stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
+  <!-- Encabezado -->
+  <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista adaptable para dispositivos móviles -->
+  <title>Mi Portafolio - Elias Harmon</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlace al archivo de iconos de Font Awesome -->
+  <link rel="stylesheet" href="/css/style.css"> <!-- Enlace al archivo CSS externo para estilos personalizados -->
 </head>
 
 <body>
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="menu"> <!-- Lista de elementos de menú -->
+      <li><a href="MasSobreMi.html">Más Sobre Mí</a></li> <!-- Enlace a la página "Más Sobre Mí" -->
+      <li><a href="#home">Home</a></li> <!-- Enlace al inicio de la página -->
+      <li><a href="ExpLaboral.html">Experiencia Laboral</a></li> <!-- Enlace a la página "Experiencia Laboral" -->
+      <li><a href="MiVision.html">Mi Visión</a></li> <!-- Enlace a la página "Mi Visión" -->
+    </ul>
+  </nav>
 
-    <nav>
-        <div class="menu-icon" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-        <ul class="menu">
-          <li>
-            ><img id="logo" src="img/gatillo.png" alt="Elias Harmon_" />Home</a
-              
-            >
-          </li>
-          <li><a href="MasSobreMi.html">Más Sobre mí</a></li>
-          <li><a href="ExpLaboral.html">Experiencia Laboral</a></li>
-          <li><a href="MiVision.html">Mi Visión</a></li>
-        </ul>
-      </nav>
+  <!-- Encabezado principal -->
+  <header id="home">
+    <h1>Bienvenido a mi Portafolio</h1> <!-- Título principal -->
+    <img class="logo" src="img/gatillo.png" alt="Elias Harmon_"> <!-- Imagen del logo -->
+  </header>
 
-    <header>
+  <!-- Sección "Sobre Mí" -->
+  <section>
+    <h2>Sobre Mí</h2> <!-- Título de la sección -->
+    <p>¡Hola! Soy Elias Harmon, nací en Chihuahua, el día viernes, 21 de Mayo de 1999.</p> <!-- Breve descripción sobre el autor -->
+    <div class="planets"> <!-- Contenedor de íconos -->
+      <i class="fas fa-moon"></i> <!-- Ícono de la luna -->
+    </div>
+  </section>
 
-        <h1>Bienvenido a mi Portafolio</h1>
-        <li>
-          <img id="logo" src="img/gatillo.png" alt="Elias Harmon_" />Home</a
-            
-          >
-        </li>
+  <!-- Sección "Sobre Mí" detallada -->
+  <section id="about" class="section">
+    <div class="container"> <!-- Contenedor para alinear contenido -->
+      <img src="img/gatillo.png" alt="Foto de perfil" class="profile-img"> <!-- Imagen de perfil -->
+      <div class="about-text"> <!-- Contenedor de texto sobre el autor -->
+        <h2>¡Hola! Soy Elias Harmon</h2> <!-- Título -->
+        <p>Soy un apasionado desarrollador web full stack con experiencia en la creación de aplicaciones web modernas y escalables. Me encanta trabajar con tecnologías como HTML, CSS, JavaScript, React y Node.js.</p> <!-- Descripción sobre el autor -->
+        <p>Siempre estoy buscando aprender nuevas habilidades y enfrentar nuevos desafíos. Estoy comprometido con la entrega de soluciones de alta calidad que cumplan con los requisitos del cliente y mejoren la experiencia del usuario.</p> <!-- Continuación de la descripción -->
+        <p>No dudes en ponerte en contacto conmigo si tienes alguna pregunta o si estás interesado en colaborar en un proyecto emocionante.</p> <!-- Última parte de la descripción -->
+      </div>
+    </div>
+  </section>
 
-    </header>
-
-    <section id="about">
-
-
-        <h2>Sobre Mí</h2>
-        <p>¡Hola! Soy Elias Harmon, nací en Chihuahua, el día viernes, 21 de Mayo de 1999.</p>
-        <!-- Puedes agregar más información sobre ti aquí -->
-
-        <div class="planets">
-            <i class="fas fa-moon"></i> <!-- Ícono del Sol -->
-            <!-- Agrega los íconos de los demás planetas según tus necesidades -->
-
-        </div>
-
-    </section>
-
-    <footer>
-
-        <p>&copy; 2024 Elias Harmon. Todos los derechos reservados.</p>
-
-    </footer>
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container"> <!-- Contenedor para alinear contenido -->
+      <p>&copy; 2024 Elias Harmon. Todos los derechos reservados.</p> <!-- Derechos de autor -->
+      <div class="social-links"> <!-- Enlaces a redes sociales -->
+        <a href="https://github.com/cogrendev" target="_blank" class="social-link"><i class="fab fa-github"></i></a> <!-- Enlace a GitHub -->
+        <a href="https://www.linkedin.com/in/elias-harmon-b1ba53195/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a> <!-- Enlace a LinkedIn -->
+        <a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a> <!-- Enlace a Twitter (no especificado) -->
+      </div>
+    </div>
+  </footer>
 
 </body>
 
