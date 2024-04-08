@@ -37,6 +37,7 @@ header {
     color: #fff; /* Color del texto del encabezado */
     text-align: center; /* Alineación del texto en el encabezado */
     padding: 100px 0; /* Espaciado interno del encabezado */
+    height: 2em;
 }
 
 header h1 {
