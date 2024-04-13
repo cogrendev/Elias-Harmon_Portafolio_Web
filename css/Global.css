@@ -36,7 +36,7 @@ header {
   background-color: #15171a; /* Color de fondo del encabezado */
   color: #fff; /* Color del texto del encabezado */
   text-align: center; /* Alineación del texto en el encabezado */
-  padding: 100px 0; /* Espaciado interno del encabezado */
+  padding: 50px 0; /* Espaciado interno del encabezado */
   height: 2em;
 }
 
@@ -103,5 +103,12 @@ section h2 {
 .blurred:hover {
   filter: none; /* Quitamos el filtro de desenfoque */
 }  
+
+.HolaSection img {
+  width: 300px;
+  height: auto;
+}
+
+
 
 
