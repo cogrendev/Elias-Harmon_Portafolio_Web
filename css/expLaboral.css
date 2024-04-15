@@ -1,25 +1,25 @@
-/* Estilos para la barra de navegación */
+
 nav {
-  background-color: #000000; /* Color de fondo de la barra de navegación */
-  color: #fff; /* Color del texto de la barra de navegación */
-  padding: 15px 0; /* Espaciado interno de la barra de navegación */
-  text-align: center; /* Alineación del texto en la barra de navegación */
+  background-color: #000000;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
 }
 
 nav .menu {
-  display: flex; /* Utiliza un diseño de caja flexible para los elementos del menú */
-  justify-content: center; /* Centra horizontalmente los elementos del menú */
-  list-style-type: none; /* Elimina los puntos de la lista */
-  padding: 0; /* Elimina el relleno de la lista */
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav .menu li {
-  margin: 0 15px; /* Espaciado entre los elementos del menú */
+  margin: 0 15px;
 }
 
 nav .menu a {
-  color: #fff; /* Color del texto del enlace en la barra de navegación */
-  text-decoration: none; /* Elimina la decoración del enlace */
+  color: #fff;
+  text-decoration: none;
 }
 
 body {

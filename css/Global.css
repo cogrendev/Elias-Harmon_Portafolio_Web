@@ -1,114 +1,101 @@
-/* Estilos generales */
 body {
-  font-family: 'Roboto', sans-serif; /* Tipo de fuente para el cuerpo del documento */
-  margin: 0; /* Elimina los márgenes predeterminados */
-  padding: 0; /* Elimina el relleno predeterminado */
-  background-color: rgba(47, 51, 59, 0.836); /* Color de fondo del cuerpo del documento */
-  color: #614c4c; /* Color del texto */
+  font-family: 'Roboto', sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: rgba(47, 51, 59, 0.836); 
+  color: #614c4c; 
 }
 
-/* Estilos para la barra de navegación */
 nav {
-  background-color: #000000; /* Color de fondo de la barra de navegación */
-  color: #fff; /* Color del texto de la barra de navegación */
-  padding: 15px 0; /* Espaciado interno de la barra de navegación */
-  text-align: center; /* Alineación del texto en la barra de navegación */
+  background-color: #000000; 
+  color: #fff; 
+  padding: 15px 0; 
+  text-align: center; 
 }
 
 nav .menu {
-  display: flex; /* Utiliza un diseño de caja flexible para los elementos del menú */
-  justify-content: center; /* Centra horizontalmente los elementos del menú */
-  list-style-type: none; /* Elimina los puntos de la lista */
-  padding: 0; /* Elimina el relleno de la lista */
+  display: flex; 
+  justify-content: center; 
+  list-style-type: none; 
+  padding: 0; 
 }
 
 nav .menu li {
-  margin: 0 15px; /* Espaciado entre los elementos del menú */
+  margin: 0 15px; 
 }
 
 nav .menu a {
-  color: #fff; /* Color del texto del enlace en la barra de navegación */
-  text-decoration: none; /* Elimina la decoración del enlace */
+  color: #fff; 
+  text-decoration: none; 
 }
 
-/* Estilos para el encabezado */
 header {
-  background-color: #15171a; /* Color de fondo del encabezado */
-  color: #fff; /* Color del texto del encabezado */
-  text-align: center; /* Alineación del texto en el encabezado */
-  padding: 50px 0; /* Espaciado interno del encabezado */
+  background-color: #15171a; 
+  color: #fff; 
+  text-align: center; 
+  padding: 50px 0; 
   height: 2em;
 }
 
 header h1 {
-  font-size: 36px; /* Tamaño de fuente del título del encabezado */
-  margin-bottom: 20px; /* Espaciado inferior del título del encabezado */
+  font-size: 36px; 
+  margin-bottom: 20px; 
 }
 
 .logo {
-  width: 100px; /* Ancho del logo */
-  height: auto; /* Altura automática del logo */
-  margin-bottom: 20px; /* Espaciado inferior del logo */
+  width: 100px; 
+  height: auto; 
+  margin-bottom: 20px; 
 }
 
-/* Estilos para las secciones */
 section {
-  padding: 50px; /* Espaciado interno de las secciones */
-  text-align: center; /* Alineación del texto en las secciones */
+  padding: 50px; 
+  text-align: center; 
   color: #fff;
 }
 
 section h2 {
-  font-size: 24px; /* Tamaño de fuente del título de la sección */
-  margin-bottom: 20px; /* Espaciado inferior del título de la sección */
+  font-size: 24px; 
+  margin-bottom: 20px; 
 }
 
-/* Estilos para el pie de página */
 .footer {
-  background-color: #15171a; /* Color de fondo del pie de página */
-  color: #fff; /* Color del texto del pie de página */
-  text-align: center; /* Alineación del texto en el pie de página */
-  padding: 30px 0; /* Espaciado interno del pie de página */
+  background-color: #15171a; 
+  color: #fff; 
+  text-align: center; 
+  padding: 30px 0; 
 }
 
-/* Estilos para el contenedor */
 .container {
-  max-width: 1200px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
-  padding: 0 20px; /* Espaciado interno del contenedor */
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
 }
 
-/* Estilos para los enlaces de redes sociales */
 .social-links {
-  margin-top: 20px; /* Margen superior para los enlaces de redes sociales */
+  margin-top: 20px; 
 }
 
 .social-link {
-  display: inline-block; /* Hace que los enlaces sean elementos de bloque */
-  margin: 0 10px; /* Espaciado entre los enlaces de redes sociales */
-  font-size: 24px; /* Tamaño de fuente de los enlaces de redes sociales */
-  color: #fff; /* Color del texto de los enlaces de redes sociales */
-  text-decoration: none; /* Elimina la decoración del texto de los enlaces de redes sociales */
+  display: inline-block; 
+  margin: 0 10px; 
+  font-size: 24px; 
+  color: #fff; 
+  text-decoration: none; 
 }
 
-/* Estilo inicial con desenfoque */
 .blurred {
-  filter: blur(5px); /* Ajusta el valor de desenfoque según lo desees */
-  transition: filter 0.3s ease; /* Agregamos una transición suave */
+  filter: blur(5px); 
+  transition: filter 0.3s ease; 
   display: block;
   margin: 0 auto;
 }
 
-/* Cuando el cursor está sobre la imagen, eliminamos el desenfoque */
 .blurred:hover {
-  filter: none; /* Quitamos el filtro de desenfoque */
+  filter: none; 
 }  
 
 .HolaSection img {
   width: 300px;
   height: auto;
 }
-
-
-
-
