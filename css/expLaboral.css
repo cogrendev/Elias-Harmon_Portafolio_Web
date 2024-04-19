@@ -30,23 +30,18 @@ body {
   max-width: 0 auto;
 }
 
-
-
-.work-experience {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 800px; /* ajusta según el ancho deseado */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 .experience {
   background-color: #00000069;
   border: 1px solid #ccc;
   margin: 10px;
   padding: 20px;
-  width: 300px; /* ajusta según el ancho deseado */
+  width: 650px; /* ajusta según el ancho deseado */
 }
 
+.flexWorkExperience {
+
+display: flex;
+justify-content: center;
+
+}
 
