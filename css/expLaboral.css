@@ -23,58 +23,30 @@ nav .menu a {
 }
 
 body {
+  text-align: center;
   background: #1b1b25;
   color: #fff;
   font-family: "Josefin Sans", sans-serif;
+  max-width: 0 auto;
 }
 
-.separator {
-  width: 30%;
-}
 
-.title {
-  margin-top: 100px;
-  margin-bottom: 10px;
-
-  a {
-    color: #db4d57;
-
-    &:hover {
-      text-decoration: none;
-      font-weight: bold;
-    }
-  }
-
-  hr {
-    width: 75%;
-  }
-}
-
-.summary {
-  padding: 20px;
-
-  p {
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
-  }
-}
 
 .work-experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px; /* ajusta según el ancho deseado */
   padding: 20px;
+  box-sizing: border-box;
+}
 
-  .experience-title {
-    margin-top: 50px;
-  }
-
-  .experience-summary {
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-
-  p {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
+.experience {
+  background-color: #00000069;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  width: 300px; /* ajusta según el ancho deseado */
 }
 
 
