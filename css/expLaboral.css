@@ -27,7 +27,6 @@ nav .menu li {
 
 nav .menu a {
   color: #fff; 
-  text-decoration: none; 
 }
 
 
@@ -36,7 +35,15 @@ nav .menu a {
   border: 1px solid #ccc;
   margin: 10px;
   padding: 20px;
-  width: 650px; /* ajusta según el ancho deseado */
+  width: 650px;
+  transition: transform .2s;
+}
+
+
+.experience:hover {
+
+transform: scale(1.2);
+
 }
 
 .flexWorkExperience {

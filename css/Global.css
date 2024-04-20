@@ -3,7 +3,6 @@ body {
   margin: 0; 
   padding: 0; 
   background-color: rgba(47, 51, 59, 0.836); 
-  color: #614c4c; 
 }
 
 nav {
@@ -26,7 +25,6 @@ nav .menu li {
 
 nav .menu a {
   color: #fff; 
-  text-decoration: none; 
 }
 
 header {
@@ -86,13 +84,15 @@ section h2 {
 
 .blurred {
   filter: blur(5px); 
-  transition: filter 0.3s ease; 
+  transition: filter 1.0s ease;
+  transition: transform .2s;
   display: block;
   margin: 0 auto;
 }
 
 .blurred:hover {
   filter: none; 
+  transform: scale(1.05);
 }  
 
 .HolaSection img {
@@ -100,3 +100,12 @@ section h2 {
   height: auto;
 }
 
+.social-link {
+  transition: transform .2s;
+}
+
+.social-link:hover {
+
+transform: scale(1.5);
+
+}

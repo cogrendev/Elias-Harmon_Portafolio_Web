@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #15171a; 
+    color: #ffffff; 
+    text-align: center;
+  }
+
+nav {
+  background-color: #000000; 
+  color: #fff; 
+  padding: 15px 0; 
+  text-align: center; 
+}
+
+nav .menu {
+  display: flex; 
+  justify-content: center; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+nav .menu li {
+  margin: 0 15px; 
+}
+
+nav .menu a {
+  color: #fff; 
+}
+
+.postBlueBox {
+    
+background-color: #00298369;
+border: 1px solid #ccc;
+margin: 10px;
+padding: 20px;
+width: auto;
+
+}
+
+.postFlexBox {
+
+display: flex;
+justify-content: center;
+
+}
